@@ -5,7 +5,7 @@ import Home from '../pages/Home.vue'
 import Courses from '../pages/Courses.vue'
 import About from '../pages/About.vue'
 import Contact from '../pages/Contact.vue'
-import Register from '../pages/Register.vue/index.ts'
+import Register from '../pages/Register.vue'
 
 const router = createRouter({
   history: createWebHistory(),
