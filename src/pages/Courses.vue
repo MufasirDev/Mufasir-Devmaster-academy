@@ -9,7 +9,7 @@
 
       <div class="hero-content">
 
-        <span>MUfasir DEVMASTER ACADEMY</span>
+        <span>MUFASIR DEVMASTER ACADEMY</span>
 
         <h1>
           Learn.
@@ -231,7 +231,7 @@
           </p>
 
           <div class="price">
-            ₦25,000
+            ₦50,000
           </div>
 
           <router-link

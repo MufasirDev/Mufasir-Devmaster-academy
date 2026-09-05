@@ -227,7 +227,7 @@ const coursePrice = computed(() => {
     'JavaScript Basics': 30000,
     'React Development': 35000,
     'Vue.js Development': 35000,
-    'Vite & Frontend Tools': 25000
+    'Vite & Frontend Tools': 50000,
   }
 
   return prices[courseName.value] || 0
