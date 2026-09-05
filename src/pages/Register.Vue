@@ -202,7 +202,7 @@ import Paystack from '@paystack/inline-js'
 
 import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
-import { supabase } from '../lib/supabase'
+import { supabase } from '../lib/supabase.js'
 
 const route = useRoute()
 
