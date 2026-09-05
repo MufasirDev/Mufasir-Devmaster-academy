@@ -1,4 +1,3 @@
-`
 <template>
   <div class="register-page">
 
@@ -278,7 +277,7 @@ async function submitForm() {
 
       currency: 'NGN',
 
-      reference: `MDA-${registrationId}-${Date.now()}`,
+      reference: 'MDA-' + registrationId + '-' + Date.now(),
 
       onSuccess: async (transaction) => {
         try {
@@ -814,5 +813,4 @@ async function submitForm() {
 }
 
 </style>
-'
 
