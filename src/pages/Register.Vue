@@ -88,7 +88,6 @@
         </div>
 
 
-        <!-- FORM -->
         <div class="register-card">
 
           <h2>Create Your Account</h2>
