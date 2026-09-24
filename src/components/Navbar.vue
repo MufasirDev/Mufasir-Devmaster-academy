@@ -5,11 +5,12 @@
     <div class="nav-container">
 
       <!-- LOGO -->
-      <router-link to="/" class="logo">
-        Mufasir<span>DevMaster</span>
-      </router-link>
-
-
+<router-link to="/" class="logo">
+  <img src="/logo.png" alt="Mufasir DevMaster Academy" />
+  <span class="brand-name">
+  <span class="mufasir">Mufasir</span><span class="devmaster">DevMaster Academy</span>
+</span>
+</router-link>
       <!-- DESKTOP NAVIGATION -->
       <nav class="nav-links">
 
@@ -157,27 +158,29 @@ const menuOpen = ref(false)
 }
 
 
-/* LOGO */
-
 .logo {
-  color: #102a43;
-
-  font-size: 20px;
-
-  font-weight: 900;
-
-  letter-spacing: -0.6px;
-
+  display: flex;
+  align-items: center;
+  gap: 10px;
   text-decoration: none;
-
-  white-space: nowrap;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 800;
 }
 
-
-.logo span {
-  color: #1261d6;
+.logo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
 }
 
+.logo > span {
+  color: #fff;
+}
+
+.logo > span > span {
+  color: #168cff;
+}
 
 /* NAV LINKS */
 
@@ -394,6 +397,19 @@ const menuOpen = ref(false)
     text-align: center;
   }
 
+}
+
+.brand-name {
+  color: #071b3a;
+  font-weight: 800;
+}
+
+.brand-name .mufasir {
+  color: #071b3a !important;
+}
+
+.brand-name .devmaster {
+  color: #168cff !important;
 }
 
 </style>
